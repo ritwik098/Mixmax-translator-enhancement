@@ -4,11 +4,12 @@
     <title>Translate</title>
     <!-- Mixmax SDK -->
     <script defer src="https://d1xa36cy0xt122.cloudfront.net/v1/Mixmax.js"></script>
-    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +21,6 @@
                         <option value='az'>Azerbaijan</option>
                         <option value='sq'>Albanian</option>
                         <option value='am'>Amharic</option>
-                        <option value='en'>English</option>
                         <option value='ar'>Arabic</option>
                         <option value='hy'>Armenian</option>
                         <option value='af'>Afrikaans</option>
@@ -30,31 +30,38 @@
                         <option value='bn'>Bengali</option>
                         <option value='bg'>Bulgarian</option>
                         <option value='bs'>Bosnian</option>
-                        <option value='cy'>Welsh</option>
-                        <option value='hu'>Hungarian</option>
-                        <option value='vi'>Vietnamese</option>
-                        <option value='ht'>Haitian (Creole)</option>
-                        <option value='gl'>Galician</option>
+                        <option value='ca'>Catalan</option>
+                        <option value='zh'>Chinese</option>
+                        <option value='hr'>Croatian</option>
+                        <option value='cs'>Czech</option> 
+                        <option value='ceb'>Cebuano</option>                      
+                        <option value='da'>Danish</option>
                         <option value='nl'>Dutch</option>
-                        <option value='mrj'>Hill Mari</option>
+                        <option value='en'>English</option>
+                        <option value='et'>Estonian</option>
+                        <option value='eo'>Esperanto</option>
+                        <option value='fi'>Finnish</option>
+                        <option value='fr'>French</option>                        
                         <option value='el'>Greek</option>
                         <option value='ka'>Georgian</option>
                         <option value='gu'>Gujarati</option>
-                        <option value='da'>Danish</option>
+                        <option value='gl'>Galician</option>
+                        <option value='de'>German</option>
+                        <option value='hi'>Hindi</option>
+                        <option value='hu'>Hungarian</option>                     
+                        <option value='ht'>Haitian (Creole)</option>
                         <option value='he'>Hebrew</option>
-                        <option value='yi'>Yiddish</option>
+                        <option value='mrj'>Hill Mari</option>
                         <option value='id'>Indonesian</option>
                         <option value='ga'>Irish</option>
                         <option value='it'>Italian</option>
                         <option value='is'>Icelandic</option>
-                        <option value='es'>Spanish</option>
+                        <option value='jv'>Javanese</option>
+                        <option value='ja'>Japanese</option>
                         <option value='kk'>Kazakh</option>
-                        <option value='kn'>Kannada</option>
-                        <option value='ca'>Catalan</option>
-                        <option value='ky'>Kyrgyz</option>
-                        <option value='zh'>Chinese</option>
-                        <option value='ko'>Korean</option>
-                        <option value='xh'>Xhosa</option>
+                        <option value='kn'>Kannada</option>                       
+                        <option value='ky'>Kyrgyz</option>                        
+                        <option value='ko'>Korean</option>                        
                         <option value='la'>Latin</option>
                         <option value='lv'>Latvian</option>
                         <option value='lt'>Lithuanian</option>
@@ -67,7 +74,6 @@
                         <option value='mr'>Marathi</option>
                         <option value='mhr'>Mari</option>
                         <option value='mn'>Mongolian</option>
-                        <option value='de'>German</option>
                         <option value='ne'>Nepali</option>
                         <option value='no'>Norwegian</option>
                         <option value='pa'>Punjabi</option>
@@ -77,13 +83,15 @@
                         <option value='pt'>Portuguese</option>
                         <option value='ro'>Romanian</option>
                         <option value='ru'>Russian</option>
-                        <option value='ceb'>Cebuano</option>
                         <option value='sr'>Serbian</option>
                         <option value='si'>Sinhala</option>
                         <option value='sk'>Slovakian</option>
                         <option value='sl'>Slovenian</option>
                         <option value='sw'>Swahili</option>
                         <option value='su'>Sundanese</option>
+                        <option value='sv'>Swedish</option>
+                        <option value='gd'>Scottish</option>
+                        <option value='es'>Spanish</option>
                         <option value='tg'>Tajik</option>
                         <option value='th'>Thai</option>
                         <option value='tl'>Tagalog</option>
@@ -95,17 +103,10 @@
                         <option value='uz'>Uzbek</option>
                         <option value='uk'>Ukrainian</option>
                         <option value='ur'>Urdu</option>
-                        <option value='fi'>Finnish</option>
-                        <option value='fr'>French</option>
-                        <option value='hi'>Hindi</option>
-                        <option value='hr'>Croatian</option>
-                        <option value='cs'>Czech</option>
-                        <option value='sv'>Swedish</option>
-                        <option value='gd'>Scottish</option>
-                        <option value='et'>Estonian</option>
-                        <option value='eo'>Esperanto</option>
-                        <option value='jv'>Javanese</option>
-                        <option value='ja'>Japanese</option>
+                        <option value='vi'>Vietnamese</option>
+                        <option value='cy'>Welsh</option>
+                        <option value='xh'>Xhosa</option>
+                        <option value='yi'>Yiddish</option>
                     </select>
                     <label> From: </label>
                 </div>
@@ -114,7 +115,6 @@
                         <option value='az'>Azerbaijan</option>
                         <option value='sq'>Albanian</option>
                         <option value='am'>Amharic</option>
-                        <option value='en'>English</option>
                         <option value='ar'>Arabic</option>
                         <option value='hy'>Armenian</option>
                         <option value='af'>Afrikaans</option>
@@ -124,31 +124,38 @@
                         <option value='bn'>Bengali</option>
                         <option value='bg'>Bulgarian</option>
                         <option value='bs'>Bosnian</option>
-                        <option value='cy'>Welsh</option>
-                        <option value='hu'>Hungarian</option>
-                        <option value='vi'>Vietnamese</option>
-                        <option value='ht'>Haitian (Creole)</option>
-                        <option value='gl'>Galician</option>
+                        <option value='ca'>Catalan</option>
+                        <option value='zh'>Chinese</option>
+                        <option value='hr'>Croatian</option>
+                        <option value='cs'>Czech</option> 
+                        <option value='ceb'>Cebuano</option>                      
+                        <option value='da'>Danish</option>
                         <option value='nl'>Dutch</option>
-                        <option value='mrj'>Hill Mari</option>
+                        <option value='en'>English</option>
+                        <option value='et'>Estonian</option>
+                        <option value='eo'>Esperanto</option>
+                        <option value='fi'>Finnish</option>
+                        <option value='fr'>French</option>                        
                         <option value='el'>Greek</option>
                         <option value='ka'>Georgian</option>
                         <option value='gu'>Gujarati</option>
-                        <option value='da'>Danish</option>
+                        <option value='gl'>Galician</option>
+                        <option value='de'>German</option>
+                        <option value='hi'>Hindi</option>
+                        <option value='hu'>Hungarian</option>                     
+                        <option value='ht'>Haitian (Creole)</option>
                         <option value='he'>Hebrew</option>
-                        <option value='yi'>Yiddish</option>
+                        <option value='mrj'>Hill Mari</option>
                         <option value='id'>Indonesian</option>
                         <option value='ga'>Irish</option>
                         <option value='it'>Italian</option>
                         <option value='is'>Icelandic</option>
-                        <option value='es'>Spanish</option>
+                        <option value='jv'>Javanese</option>
+                        <option value='ja'>Japanese</option>
                         <option value='kk'>Kazakh</option>
-                        <option value='kn'>Kannada</option>
-                        <option value='ca'>Catalan</option>
-                        <option value='ky'>Kyrgyz</option>
-                        <option value='zh'>Chinese</option>
-                        <option value='ko'>Korean</option>
-                        <option value='xh'>Xhosa</option>
+                        <option value='kn'>Kannada</option>                       
+                        <option value='ky'>Kyrgyz</option>                        
+                        <option value='ko'>Korean</option>                        
                         <option value='la'>Latin</option>
                         <option value='lv'>Latvian</option>
                         <option value='lt'>Lithuanian</option>
@@ -161,7 +168,6 @@
                         <option value='mr'>Marathi</option>
                         <option value='mhr'>Mari</option>
                         <option value='mn'>Mongolian</option>
-                        <option value='de'>German</option>
                         <option value='ne'>Nepali</option>
                         <option value='no'>Norwegian</option>
                         <option value='pa'>Punjabi</option>
@@ -171,13 +177,15 @@
                         <option value='pt'>Portuguese</option>
                         <option value='ro'>Romanian</option>
                         <option value='ru'>Russian</option>
-                        <option value='ceb'>Cebuano</option>
                         <option value='sr'>Serbian</option>
                         <option value='si'>Sinhala</option>
                         <option value='sk'>Slovakian</option>
                         <option value='sl'>Slovenian</option>
                         <option value='sw'>Swahili</option>
                         <option value='su'>Sundanese</option>
+                        <option value='sv'>Swedish</option>
+                        <option value='gd'>Scottish</option>
+                        <option value='es'>Spanish</option>
                         <option value='tg'>Tajik</option>
                         <option value='th'>Thai</option>
                         <option value='tl'>Tagalog</option>
@@ -189,17 +197,10 @@
                         <option value='uz'>Uzbek</option>
                         <option value='uk'>Ukrainian</option>
                         <option value='ur'>Urdu</option>
-                        <option value='fi'>Finnish</option>
-                        <option value='fr'>French</option>
-                        <option value='hi'>Hindi</option>
-                        <option value='hr'>Croatian</option>
-                        <option value='cs'>Czech</option>
-                        <option value='sv'>Swedish</option>
-                        <option value='gd'>Scottish</option>
-                        <option value='et'>Estonian</option>
-                        <option value='eo'>Esperanto</option>
-                        <option value='jv'>Javanese</option>
-                        <option value='ja'>Japanese</option>
+                        <option value='vi'>Vietnamese</option>
+                        <option value='cy'>Welsh</option>
+                        <option value='xh'>Xhosa</option>
+                        <option value='yi'>Yiddish</option>
                     </select>
                     <label> To: </label>
                 </div>
@@ -220,6 +221,7 @@
 </body>
 <script>
 $(document).ready(function() {
+	$('select').material_select();
     console.log("ready!");
     $('button').on('click', function() {
         var From = $('#from').val();

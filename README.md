@@ -18,7 +18,7 @@ In order to run the Mixmax translator enhancement follow these steps:
 >
 > leave Activate API URL blank
 
-7. Refresh Gmail with Mixmax installed. Click Compose and hover over the Enhance menu. You should see the Translators enhancement at the top. Note that you might need to restart Chrome in "insecure" mode for local testing - see instructions [here].
+7. Refresh Gmail with Mixmax installed. Click Compose and hover over the Enhance menu. You should see the Translator enhancement at the top. Note that you might need to restart Chrome in "insecure" mode for local testing - see instructions [here].
 
 [Mixmax Dashboard]: <https://app.mixmax.com/dashboard/>
 [here]: <http://developer.mixmax.com/docs/variables-in-templates#insecure-content-https-request-blocked-when-develo>

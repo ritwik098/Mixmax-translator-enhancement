@@ -1,0 +1,21 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/google-apps-script": "0.0.10",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "request": "^2.79.0",
+    "url": "^0.11.0",
+    "yandex-translate": "^2.1.1"
+  }
+}
